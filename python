@@ -1,0 +1,1824 @@
+github link:
+https://github.com/giridhar276/dellemc
+
+
+https://codeshare.io/bvXq46
+https://cloud2.rpsconsulting.in/
+
+username         password
+23PRE2276_PP01	Pass@word1 - Guru
+23PRE2276_PP02	Pass@word1 - Harsha
+23PRE2276_PP03	Pass@word1 - Jeevitha
+23PRE2276_PP04	Pass@word1 - Shalini
+23PRE2276_PP05	Pass@word1 - Maruthi
+23PRE2276_PP06	Pass@word1  - Neha
+23PRE2276_PP07	Pass@word1 - Sheetal
+23PRE2276_PP08	Pass@word1 - roopa
+23PRE2276_PP09	Pass@word1 - Shrinidhi
+23PRE2276_PP10	Pass@word1 - Pooja L
+23PRE2276_PP11	Pass@word1 - Bhoomika
+23PRE2276_PP12	Pass@word1 - Jani	
+23PRE2276_PP13	Pass@word1 - Srinivas
+23PRE2276_PP14	Pass@word1 - Rehab
+23PRE2276_PP15	Pass@word1 - Shrikanth G
+23PRE2276_PP16	Pass@word1 - Sneha
+23PRE2276_PP17	Pass@word1 - Bhuvana
+23PRE2276_PP18	Pass@word1 - Smitha
+23PRE2276_PP19	Pass@word1 - Vandana
+23PRE2276_PP20	Pass@word1 - Malai
+23PRE2276_PP21	Pass@word1 - Sandeep
+23PRE2276_PP22	Pass@word1 - Nagarjun
+23PRE2276_PP23	Pass@word1 - Dileep 
+
+
+
+########
+
+book  = {"chap1":10,"chap2":20 ,"chap3":30,'chap1':100}
+print(book)
+
+# display keys
+print(book.keys())
+# display values
+print(book.values())
+# display items
+print(book.items())
+
+# create new key-value pairs
+book['chap4'] = 40
+book['chap5'] = 50
+print(book)
+
+# display value
+print(book['chap1'])
+print(book['chap2'])
+
+
+newbook = {"chap6":60,"chap7":70}
+finalbook = {**book,**newbook}
+print(finalbook)
+
+book.update(newbook)
+print(book)
+####################################
+# display keys
+for key in book.keys():
+    print(key)
+
+# display values
+for value in book.values():
+    print(value)
+    
+# display items
+for key,value in book.items():
+    print(key,value)
+    
+
+
+
+
+print(type(book))
+print(isinstance(book,dict))  # True
+print(isinstance(book,list))  # False
+print(isinstance(book,tuple)) # False
+
+val = 10
+print(type(val))
+print(isinstance(val,int))
+print(isinstance(val,list))
+
+
+
+
+
+
+
+
+
+##########
+
+
+
+
+
+colors = [
+{
+"colors": "red",
+"values": "#f00"
+},
+{
+"colors": "green",
+"values": "#0f0"
+},
+{
+"colors": "blue",
+"values": "#00f"
+},
+{
+"colors": "cyan",
+"values": "#0ff"
+},
+{
+"colors": "magenta",
+"values": "#f0f"
+},
+{
+"colors": "yellow",
+"values": "#ff0"
+},
+{
+"colors": "black",
+"values": "#000"
+}
+]
+
+
+    
+write a program to display all the colornd its values.
+
+sample output:
+
+red    #ffoo
+yellow  #ff0
+magenta #f0f
+..
+..
+..
+
+
+for item in colors:
+    print(item['colors'],item['values'])
+    
+
+
+
+####################################################
+
+
+alist= [
+  {
+    "login": "mojombo",
+    "id": 1,
+    "node_id": "MDQ6VXNlcjE=",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mojombo",
+    "html_url": "https://github.com/mojombo",
+    "followers_url": "https://api.github.com/users/mojombo/followers",
+    "following_url": "https://api.github.com/users/mojombo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mojombo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mojombo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mojombo/subscriptions",
+    "organizations_url": "https://api.github.com/users/mojombo/orgs",
+    "repos_url": "https://api.github.com/users/mojombo/repos",
+    "events_url": "https://api.github.com/users/mojombo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mojombo/received_events",
+    "type": "User",
+    "site_admin": False
+  },
+  {
+    "login": "defunkt",
+    "id": 2,
+    "node_id": "MDQ6VXNlcjI=",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/defunkt",
+    "html_url": "https://github.com/defunkt",
+    "followers_url": "https://api.github.com/users/defunkt/followers",
+    "following_url": "https://api.github.com/users/defunkt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/defunkt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/defunkt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/defunkt/subscriptions",
+    "organizations_url": "https://api.github.com/users/defunkt/orgs",
+    "repos_url": "https://api.github.com/users/defunkt/repos",
+    "events_url": "https://api.github.com/users/defunkt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/defunkt/received_events",
+    "type": "User",
+    "site_admin": False
+  }
+]
+
+ write a program to display all the keys and values line by line.
+ 
+
+for adict in alist:
+    for key,value in adict.items():
+        print(key.ljust(20),value)
+
+ 
+ ############################################################################################
+
+
+
+define a dictionary as below
+
+data = {
+"id": "0001",
+"type": "donut",
+"name": "Cake",
+"image":
+{
+"url": "images/0001.jpg",
+"width": 200,
+"height": 200
+},
+"thumbnail":
+{
+"url": "images/thumbnails/0001.jpg",
+"width": 32,
+"height": 32
+}
+}
+
+write a program to display the below output:
+
+id                : 0001
+type              :donutk
+name              : Cake
+image.width       : 200
+image.height      : 200
+image.url         : images/0001.jpg
+thumbnail.width   : 32
+thumbnail.height  : 32
+thumbnail.url     : images/0001.jpg
+
+
+for key,value in data.items():
+    if isinstance(value,str):
+        print(key.ljust(20),":",value)
+    elif isinstance(value,dict):
+        for skey,svalue in value.items():
+            finalkey = key + "." +skey
+            print(finalkey.ljust(20),":",svalue)
+
+##########################
+
+define dictionary as below
+
+
+ydict = {
+  "kind": "youtube#searchListResponse",
+  "etag": "1-m2yskBQFythfE4irbTIeOgYYfBU/PaiEDiVxOyCWelLPuuwa9LKz3Gk",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "KE",
+  "pageInfo": {
+    "totalResults": 4249,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2-m2yskBQFythfE4irbTIeOgYYfBU/QpOIr3QKlV5EUlzfFcVvDiJT0hw",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCJowOS1R0FnhipXVqEnYU1A"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3-m2yskBQFythfE4irbTIeOgYYfBU/AWutzVOt_5p1iLVifyBdfoSTf9E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Eqa2nAAhHN0"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4-m2yskBQFythfE4irbTIeOgYYfBU/2dIR9BTfr7QphpBuY3hPU-h5u-4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IirngItQuVs"
+      }
+    }
+  ]
+}
+
+
+write a program to display all etag  information from the dictionary
+
+1-m2yskBQFythfE4irbTIeOgYYfBU/PaiEDiVxOyCWelLPuuwa9LKz3Gk
+2-m2yskBQFythfE4irbTIeOgYYfBU/QpOIr3QKlV5EUlzfFcVvDiJT0hw
+3-m2yskBQFythfE4irbTIeOgYYfBU/AWutzVOt_5p1iLVifyBdfoSTf9E
+4-m2yskBQFythfE4irbTIeOgYYfBU/2dIR9BTfr7QphpBuY3hPU-h5u-4
+
+
+
+##########################################################################
+
+
+data = [
+  {
+    "name": "Meowsy",
+    "species" : "cat",
+    "foods": {
+      "likes": ["tuna", "catnip"],
+      "dislikes": ["ham", "zucchini"]
+    }
+  },
+  {
+    "name": "Barky",
+    "species" : "dog",
+    "foods": {
+      "likes": ["bones", "carrots"],
+      "dislikes": ["tuna"]
+    }
+  },
+  {
+    "name": "Purrpaws",
+    "species" : "cat",
+    "foods": {
+      "likes": ["mice"],
+      "dislikes": ["cookies"]
+    }
+  }
+]
+
+
+write a program to display the below output :
+
+['tuna', 'catnip', 'bones', 'carrots', 'mice']
+
+ ####################################################################
+ 
+data = [
+  {
+    "name": "Meowsy",
+    "species" : "cat",
+    "foods": {
+      "likes": ["tuna", "catnip"],
+      "dislikes": ["ham", "zucchini"]
+    }
+  },
+  {
+    "name": "Barky",
+    "species" : "dog",
+    "foods": {
+      "likes": ["bones", "carrots"],
+      "dislikes": ["tuna"]
+    }
+  },
+  {
+    "name": "Purrpaws",
+    "species" : "cat",
+    "foods": {
+      "likes": ["mice"],
+      "dislikes": ["cookies"]
+    }
+  }
+]
+
+write a program to dispaly the below output :
+Meowsy
+Barky
+Purrpaws
+
+
+###############################################################################
+
+define list as below
+
+lang  = ["spark","spark","spark","java","unix","unix","python","python"]
+
+write a program to display each Unique item and the no.of times it is repeated
+
+Spark  : 3 times
+java   :  1 time
+unix   :  2 times
+python : 2 times
+
+
+
+for val in set(lang):
+    print(val.ljust(10),lang.count(val),"times")
+    
+    
+###############################################################################
+
+data={"menu": {
+  "id": "file",
+  "value": "File",
+  "popup": {
+    "menuitem": [
+      {"value": "New", "onclick": "CreateNewDoc()"},
+      {"value": "Open", "onclick": "OpenDoc()"},
+      {"value": "Close", "onclick": "CloseDoc()"}
+    ]
+  }
+}}
+
+
+
+
+
+write the program to display the output
+
+new
+open
+close
+
+
+for item in data['menu']['popup']['menuitem']:
+    print(item['value'])
+
+###############################################################################
+
+write a program to display all the keys and values
+
+data = { 
+  "name"   : "John Smith",
+  "sku"    : "20223",
+  "price"  : 23.95,
+  "shipTo" : { "name" : "Jane Smith",
+               "address" : "123 Maple Street",
+               "city" : "Pretendville",
+               "state" : "NY",
+               "zip"   : "12345" },
+  "billTo" : { "name" : "John Smith",
+               "address" : "123 Maple Street",
+               "city" : "Pretendville",
+               "state" : "NY",
+               "zip"   : "12345" }
+}
+
+expected output :
+name       : John Smith
+sku        : 20223
+name       : Jane Smith
+address    : 123 Maple Street
+city       : Pretendville
+state      : NY
+zip        : 12345
+name       : John Smith
+address    : 123 Maple Street
+city       : Pretendville
+state      : NY
+zip        : 12345
+
+
+
+for key,value in data.items():
+    if isinstance(value,str):
+        print(key.ljust(10),":",value)
+    elif isinstance(value,dict):
+        for key,value in value.items():
+            print(key.ljust(10),":",value)
+
+
+###############################################################################
+
+data = {
+  "fruits": [ "apple", "orange", "pear" ],
+  "vegetables": [
+    {
+      "veggieName": "potato",
+      "veggieLike": true
+    },
+    {
+      "veggieName": "broccoli",
+      "veggieLike": false
+    }
+  ]
+}
+
+write a program to display the below output:
+apple
+orange
+pear
+potato
+broccoli
+
+
+
+
+
+
+
+
+
+
+# tradional way
+def display(a,b):
+    c  = a + b
+    return c
+total  = display(10,20)
+print(total)
+
+# pythonic way
+#lambda function
+#syntax:
+#functioname = lambda variables:expression
+
+display = lambda x,y:x+y
+total  = display(10,20)
+print(total)
+
+square = lambda x : x * x if x > 0 else 'not possible'
+total = square(2)
+print(total)
+total = square(0)
+print(total)
+
+sumofvalues = lambda *args : sum(args)
+total = sumofvalues(10,20,30,40,50,30,20,43,30,320,32)
+print(total)
+
+
+
+
+alist = ["google",'unix',"oracle"]
+#["www.google.com","www.unix".com","www.oracle.com"]
+# 1st method
+blist = []
+for val in alist:
+    blist.append("www." + val + ".com")
+print(blist)
+
+# 2nd method list comprehension
+# syntax  [expression  forloop]
+output = [  "www." + val + ".com"    for val in alist]
+print(output)
+
+
+#map(function,iterable)
+def concat(x):
+    return "www." + x + ".com"
+print(list(map(concat,alist)))
+
+
+
+concat = lambda x : "www." + x + ".com"
+print(list(map(concat,alist)))
+
+
+print(list(map( lambda x : "www." + x + ".com",alist)))
+
+
+
+
+
+
+## filter()
+
+alist = ["unix","java","oracle","python",'perl']
+#["unix","java",'perl']
+check = lambda x: len(x) == 4
+print(list(filter(check,alist)))
+
+
+
+print(list(filter(lambda x: len(x) == 4,alist)))
+
+
+
+
+https://github.com/giridhar276/dellemc/blob/main/csvfiles.zip
+
+
+
+
+
+
+# program1
+fobj = open('data.txt','w')
+fobj.write('python\n')
+fobj.write('unix\n')
+fobj.close()
+
+# program2
+fnum = open('numbers.txt','w')
+for val in range(1,11):
+    fnum.write(str(val) + "\n")
+fnum.close()
+
+#fw = open(r"C:\Users\Administrator\Desktop\newoutput\numbers.txt",'w') # rawstring
+#fw = open("C:/Users/Administrator/Desktop/newoutput/numbers.txt",'w')
+fw = open("C:\\Users\\Administrator\\Desktop\\newoutput\\numbers.txt",'w')
+fw.write('hello\n')
+fw.close()
+
+
+
+
+
+
+#
+
+
+write a program to read adult.csv and display all the lines from the file
+
+####################################################################################
+
+write a program to read adult.csv and display workclass and occupation colums only
+
+####################################################################################
+write a program to read adult.csv and display distinct workclasses
+
+# using csv library
+import csv
+workset = set()
+with open('adult.csv','r') as fobj:
+    # converting file object to csv  object
+    reader = csv.reader(fobj)
+    # procesing
+    for line in reader:
+        workclass = line[1]
+        workset.add(workclass)
+    # display output
+    for work in workset:
+        print(work)        
+
+
+
+
+
+import csv
+workdict = dict()
+with open('adult.csv','r') as fobj:
+    # converting file object to csv  object
+    reader = csv.reader(fobj)
+    # procesing
+    for line in reader:
+        workclass = line[1]
+        #{'Private':1 ,'Public':1}
+        workdict[workclass] = 1
+    # display output
+    for work in workdict:
+        print(work)        
+
+
+
+
+
+workdict = dict()
+with open('adult.csv','r') as fobj:
+    # converting file object to csv  object
+    reader = csv.reader(fobj)
+    # procesing
+    for line in reader:
+        workclass = line[1]
+        workdict[workclass] = 1
+    # display output
+    for work in workdict:
+        print(work)        
+
+
+####################################################################################
+###############################################################################
+write a program to display the below information
+
+Total male count   : xxx
+Total female count : xx
+
+
+
+
+import csv
+male = 0
+female = 0
+with open('adult.csv','r') as fobj:
+    # converting file object to csv  object
+    reader = csv.reader(fobj)
+    # procesing
+    for line in reader:
+        gender = line[9].strip()
+        if gender == 'Male':
+            male = male + 1
+        elif gender == 'Female':
+            female = female + 1
+    
+    print("total male count   :",male)
+    print("Total female count :",female)
+
+####################################################################################
+write a program to read adult.csv , replace all the lines containing  United-States
+with USA and write the to output to adultinfo_US.csv file
+
+
+try:    
+    with open('adult1111.csv') as fr,open('adultsUSA.csv','w') as fw:
+        for line in fr:
+            line = line.strip()
+            output = line.replace('United-States','USA')
+            fw.write(output + "\n")
+
+except FileNotFoundError as e:
+    print(e)
+except TypeError as error:
+    print(error)
+except (IndexError,KeyError) as err:
+    print(err)
+except Exception as err:     # default exception # baseclass exception
+    print(err)
+
+
+####################################################################################
+write a program to read movies.csv and display all the different genres.
+
+####################################################################################
+
+
+
+
+
+
+###############################################################################
+########################  frequently used libraries #####################
+###########################################################################
+
+###################
+
+
+######################################################################
+
+# ###################
+# os         : os level activities
+# math       : mathematical operations
+# sys        :  sys and python config data
+# shutil     : copy,move, rmtree  etc
+# urllib     : read the web, downloading the files
+# logging    : logging all the events
+# smtplib    : sending the mails
+# ftplib     : performing ftp operations
+# sysconfig  :  sys and python config data
+# zipfile    : create/extract the zip files
+# rarfile    : create/extract the rar files
+# cryptopgraphy : encrypting and decrypting the data or files
+# tarfile    : create/extract the tar files
+# filecmp    : comparing files or directories
+# sqlite3    : python default database
+# csv        : reading/writing csv files
+# xml        : reading/writing xml files
+# calendar   : display month,year calendar info
+# datetime   : working with date n time
+# time       : working with date n time
+# fractions  : working with decimal values
+# glob       : display all the files
+# heapq      : more of array operations ( getting largest among list )
+# subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+# pdb        : python debugger
+# platform   : platform information
+# random     : random operations ( shuffling , random digit ... )
+# re         : grep + awk + sed
+# socket     : networking programming
+# stat       : stats of the file
+# statistics : basic statistics
+# telnetlib  : accessing remote servers
+
+
+
+
+
+
+
+###########################################################################
+write a program to display the below information
+
+1) current working directory   
+2) login name
+3) current process id
+4) current python version
+5) all the libraries available in python
+6) all the environment variables
+7) operating system name
+8) platform name
+9)current date and time
+10)statistics of adult.csv file   ( display accessed tile , modified time, filesize )
+11)create empty file with today's timestamp	  ( Eg: 28_Sep_2023.csv )
+
+
+
+import datetime
+import time
+import platform
+import os
+import sys
+ 
+try:
+    cwd = os.getcwd()
+    print("Current working directory :",cwd)
+    print("Login name :",os.getlogin())
+    print("process id :",os.getpid())
+    print("python version :",sys.version)
+    print("python version :",sys.version_info)
+    print(platform.python_version())
+    print(sys.modules)
+    print("--------------------")
+    print(os.environ)
+    print("--------------------")
+    print(os.name)  #nt - windows   # posix - linux
+    print(platform.platform())
+    print(datetime.datetime.now())
+    print(datetime.date.today())
+    # display stats of file
+    print(os.stat('adult.csv'))
+    print("file size :",os.stat('adult.csv').st_size)
+    print("file size :",os.path.getsize('adult.csv'),"bytes")
+    filename = time.strftime("%d_%b_%Y.csv")
+    fobj =  open(filename,"w")
+    fobj.close()
+    
+    
+except Exception as err:
+    print(err)
+
+
+
+
+
+#############################
+write a program to display all the files from the current directory line by line 
+import os
+try:
+file
+import os 
+try:
+    files = os.listdir()
+    
+    for file in files:
+        print(file)
+except Exception as err:
+    print(err)
+    
+    
+
+
+write a program to display all the files from the C:\ line by line 
+
+# display all the files from C:||
+import os 
+try:
+    files = os.listdir("C:\\")
+    
+    for file in files:
+        print(file)
+except Exception as err:
+    print(err)
+
+
+
+write a program to display the files ONLY from the current directory 
+
+
+
+import os 
+try:
+    files = os.listdir()
+    
+    for file in files:
+        if os.path.isfile(file):
+            print(file)
+except Exception as err:
+    print(err)
+    
+   
+# display dirs
+import os 
+try:
+    files = os.listdir()
+    
+    for file in files:
+        if os.path.isdir(file):
+            print(file)
+except Exception as err:
+    print(err)
+    
+
+
+
+write a program to display all the files and its size
+
+Output:
+file1.py   100 bytes
+file2.py    34 bytes
+
+
+import os
+
+try:
+    files= os.listdir()
+    for file in files:
+        if os.path.isfile(file):
+            print(file.ljust(20), os.path.getsize(file),"bytes")
+except Exception as err:
+    print(err)
+
+
+create two folders as below in the local directory
+source       :  ( copy few files to the source folder)
+destination  :  --- will be empty --
+
+write a program to copy all the files from source folder to destination folder
+
+
+import shutil
+import os
+try:
+    source = r'C:\Users\Administrator\Desktop\Programs\source'
+    destination = r'C:\Users\Administrator\Desktop\Programs\destination'
+    for file in os.listdir(source):
+        shutil.copy(source + "\\" + file , destination)
+        print(file,"copied from ",source,"to",destination)
+    
+except Exception as err:
+    print(err)
+
+
+
+
+write a program to create 10 directories in the below format
+
+dir1
+dir2
+dir3
+..
+..
+dir10
+
+import os
+try:
+    for val in range(1,10):
+        dirname = "dir" + str(val)
+        if not os.path.isdir(dirname):
+            os.mkdir(dirname)
+            print(dirname,"created")
+        else:
+            print(dirname,"already exists")
+except Exception as err:
+    print(err)    
+    
+    
+
+########################################################################
+write a program to remove all the 10 directories that are created in the above task
+
+
+
+
+write a program to delete all .py files from the current directory
+
+
+
+write a program to display the below information  ( use platform library)
+
+machine name  ( eg:  AMD64 )
+node name
+OS name ( Eg:  'Windows-10-10.0.19041-SP0' 
+processor
+python version  
+system info ( eg: 'Linux', 'Darwin', 'Java', 'Windows'. )
+
+
+
+write a program to display the below information
+
+-CPU percentage
+-virtual memory
+-swap memory
+-disk partitions
+-disk usage
+-display boot time
+- users who are logged in
+- display all the processes running
+
+
+
+# web scraping
+write a program to read https://www.google.com/  web page and 
+display all the urls in that web page
+
+output :
+https://mail.google.com/mail/&ogbl
+https://www.google.com/imghp?hl=en&ogbl
+https://www.google.com/?authuser=0
+
+
+
+
+
+
+###############################
+# execute python program from another script
+###############################
+import subprocess
+# Define the command to run the other Python script
+command = ["python", "setmethods.py"]
+#command = ["bash", "abc.sh"]
+# Run the subprocess
+process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+# Wait for the subprocess to finish
+stdout, stderr = process.communicate()
+# Check the return code to see if the subprocess was successful
+return_code = process.returncode
+# Print the output 
+# str.decode() is used to convert bytes to string
+print("Standard Output:")
+print(stdout.decode())
+
+# Check the return code
+if return_code == 0:
+    print("Subprocess completed successfully.")
+else:
+    print(f"Subprocess failed with return code {return_code}.")
+
+
+
+
+
+
+
+display all existing databases
+------------------------------
+show databases ;
+
+creating database
+-------------------
+create database dellemc;
+
+access your database
+--------------------
+use dellemc;
+
+create table
+------------
+create table adultinfo ( workclass varchar(100) , occupation varchar(100),education varchar(100) );
+
+inserting records
+----------------
+insert into adultinfo values('public','engineer','btech');
+ 
+
+ 
+dipslay all the records
+-----------------------
+select * from adultinfo
+
+describe table
+--------------------
+desc adultinfo;
+
+
+
+
+
+
+
+
+import pymysql
+
+try:
+    conn = pymysql.connect(host='127.0.0.1',port=3306,user='root',password='giri@123')
+    print(conn)
+    
+except Exception as err:
+    print(err)
+    
+    
+    
+    
+    
+
+
+
+
+step1 :  establish the connection
+step2 :  define query
+step3 :  execute query
+step4 :  fetch the output
+step5 :  close the connection
+
+
+
+
+
+import pymysql
+
+try:
+    #step1
+    conn = pymysql.connect(host='127.0.0.1',port=3306,user='root',password='yourpassword')
+    cursor = conn.cursor()
+    #step2
+    query = "select * from dellemc.adultinfo"
+    #step3
+    cursor.execute(query)
+    #step4
+    for record in cursor.fetchall():
+        print(record[0])
+        print(record[1])
+        print(record[2])
+    #step5
+    conn.close()
+    
+except Exception as err:
+    print(err)
+    
+    
+    
+    
+## with context manager
+import pymysql
+
+try:
+    #step1
+    with pymysql.connect(host='127.0.0.1',port=3306,user='root',password='giri@123') as conn:
+        cursor = conn.cursor()
+        #step2
+        query = "select * from dellemc.adultinfo"
+        #step3
+        cursor.execute(query)
+        #step4
+        for record in cursor.fetchall():
+            print(record[0])
+            print(record[1])
+            print(record[2])
+        #step5
+    
+except Exception as err:
+    print(err)
+    
+
+
+
+##### insert record
+
+import pymysql
+
+try:
+    #step1
+    with pymysql.connect(host='127.0.0.1',port=3306,user='root',password='',database='dellemc') as conn:
+        cursor = conn.cursor()
+        #step2
+        query = "insert into adultinfo values('{}','{}','{}')".format('public','doctor','mbbs')
+        #step3
+        cursor.execute(query)
+        #step4
+        print(cursor.rowcount,"record inserted")
+        # make the changesr permanent
+        conn.commit()
+
+    
+except Exception as err:
+    print(err)
+    
+    
+    
+    
+    
+    
+##############  reading from file and inserting to database
+write a program to read adult.csv and insert workclass,occuaption and education columns 
+to the database with exception handling and proper validations.
+
+
+
+
+
+
+import pymysql
+import os
+import csv
+try:
+    #step1
+    with pymysql.connect(host='127.0.0.1',port=3306,user='root',password='yourpassword',database='dellemc') as conn:
+        cursor = conn.cursor()
+        filename = "adult.csv"
+        count = 0
+        if os.path.isfile(filename) and os.path.getsize(filename) > 0:
+            with open(filename,"r") as fobj:
+                reader = csv.reader(fobj)
+                for line in reader:
+                    workclass = line[1]
+                    education = line[3]
+                    occupation = line[6]
+                    query = "insert into adultinfo values('{}','{}','{}')".format(workclass,education,occupation)
+                    cursor.execute(query)
+                    count = count + 1
+                print(count,"records inserted")
+        conn.commit()
+except Exception as err:
+    print(err)
+                    
+        
+        
+to check the total no. of records
+#################################
+select count(*) from adultinfo ;
+
+
+# exporting the records to the file
+write a program to connect to the database(adultinfo table) and write the output to the excel file
+
+
+
+
+
+# web scraping
+import requests
+from bs4 import BeautifulSoup  # extract data from html/xml
+
+response = requests.get('https://www.google.com/')
+if response.status_code == 200:
+    soup = BeautifulSoup(response.text, 'html.parser')
+    for link in soup.find_all('a'):
+        print(link.get('href'))
+        print("---------")
+        
+        
+#########################################################       
+
+import requests
+
+url = 'https://api.github.com/'
+
+username = 'giridhar276'
+token  = 'your token'
+
+response = requests.get(url, auth = (username,token))
+
+print(response.status_code)
+
+
+
+
+#####################
+
+import requests
+import json
+url = 'https://api.github.com/'
+
+username = 'giridhar276'
+token = 'yourtoken'
+
+response = requests.get(url, auth = (username,token))
+
+if response.status_code == 200:
+    #converting string to dictionary
+    data = json.loads(response.text)
+    for key,value in data.items():
+        print(key.ljust(20),value)
+        
+        
+        
+    
+    
+    
+
+import requests
+import json
+url = 'https://api.github.com'
+endpoint = "/user"
+url = url + endpoint
+
+username = 'giridhar276'
+token  = ''
+
+response = requests.get(url, auth = (username,token))
+
+if response.status_code == 200:
+    #converting string to dictionary
+    data = json.loads(response.text)
+    for key,value in data.items():
+        print(key.ljust(20),value)
+    
+    
+
+
+
+https://gist.github.com/giridhar276/79cfcb818b23301afc649d3c7969f1ca
+
+
+
+
+
+
+
+
+
+import requests
+import json
+url = 'https://api.github.com'
+endpoint = "/gists"
+url = url + endpoint
+
+username = ''
+token  = ''
+
+print("checking ", url, "using user:", username)
+
+
+# payload
+files = {
+    "description": "rest api - giri testing",
+    "public": "true",
+    "user" : username,
+    "files": {
+    'string': {
+    "content": "this is dummy code"
+        }
+      }
+}
+r1 = requests.post(url, data=json.dumps(files), auth=(username,token))
+data = json.loads(r1.text)
+print(data['html_url'])
+
+
+
+#########################
+
+import requests
+import json
+url = 'https://api.github.com'
+endpoint = "/gists"
+url = url + endpoint
+
+username = ''
+token  = ''
+
+print("checking ", url, "using user:", username)
+
+local_file = "example.py"
+with open(local_file) as fh:
+    mydata = fh.read()
+# payload
+files = {
+    "description": "rest api - giri testing",
+    "public": "true",
+    "user" : username,
+    "files": {
+    local_file: {
+    "content": mydata
+        }
+      }
+}
+r1 = requests.post(url, data=json.dumps(files), auth=(username,token))
+
+data = json.loads(r1.text)
+print(data['html_url'])
+
+
+
+
+
+
+
+import paramiko
+
+try:
+	host = '192.168.80.130'
+	port = 22
+	username  = 'ubuntu'
+	password = 'ubuntu'
+
+	#client
+	ssh = paramiko.SSHClient()
+	ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+
+
+	ssh.connect(hostname = host, port = port,username = username,password = password)
+
+	stdin,stdout,stderr = ssh.exec_command("ls /home/ubuntu/Desktop")
+
+	for line in stdout.read().splitlines():
+	    line = line.decode('utf-8')
+	    print(line)
+except Exception as err:
+    	pass
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+import paramiko
+
+try:
+	host = '192.168.80.130'
+	port = 22
+	username  = 'ubuntu'
+	password = 'ubuntu'
+
+	#client
+	ssh = paramiko.SSHClient()
+	ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+
+
+	ssh.connect(hostname = host, port = port,username = username,password = password)
+	sftp = ssh.open_sftp()
+	remote_path = '/home/ubuntu/Desktop/ftpfiles/'
+	remote_command = "ls " + remote_path
+
+	stdin,stdout,stderr = ssh.exec_command(remote_command)
+	local_path = "/tmp/"
+	
+
+	for file in stdout.read().splitlines():
+	    file = file.decode('utf-8')
+	    file_remote = remote_path + file
+	    file_local = local_path + file
+	    
+	    sftp.get(file_remote, file_local)
+	    
+	ssh.close()
+	sftp.close()
+except Exception as err:
+    	pass
+      
+      
+      
+      
+      
+      
+      
+      
+languages.txt
+---------------------
+
+python programming
+programming in python
+python
+mython
+qython
+pytttttthon programming
+pyttthon programming
+pyttttttttthon programming
+pyhon
+pyttttttttttttthon programming
+liniux
+java
+perl and python
+pytttthon programming
+
+
+
+
+
+
+
+
+
+import re  # linux     grep + awk + sed
+# ^ - searching at the beginning of hte string
+with open('languages.txt') as fobj:
+    for line in fobj:
+        if re.search('^python',line):
+            print(line.strip())
+
+
+# $ - all the lines ending with string
+with open('languages.txt') as fobj:
+    for line in fobj:
+        if re.search('python$',line):
+            print(line.strip())
+
+
+#  * - zero of more occurences of the preceding character
+with open('languages.txt') as fobj:
+    for line in fobj:
+        if re.search('pyt*hon',line):
+            print(line.strip())
+            
+            
+#  + - one or more occurences of the preceding character
+with open('languages.txt') as fobj:
+    for line in fobj:
+        if re.search('pyt+hon',line):
+            print(line.strip())
+            
+            
+#  ? - zero or one occurence of the preceding character
+with open('languages.txt') as fobj:
+    for line in fobj:
+        if re.search('pyt?hon',line):
+            print(line.strip())
+            
+            
+            
+#  (pattern1|pattern2) either first or second
+with open('languages.txt') as fobj:
+    for line in fobj:
+        if re.search('python|unix',line):
+            print(line.strip())
+            
+            
+# . - any single character     
+with open('languages.txt') as fobj:
+    for line in fobj:
+        if re.search('.ython',line):
+            print(line.strip())          
+            
+            
+# [qwrt] either q or w or r or t           
+with open('languages.txt') as fobj:
+    for line in fobj:
+        # either qython or wython or rython or tython
+        if re.search('[qwrt]ython',line):
+            print(line.strip())          
+                        
+#{ min,max}  min to max occurences of preceding
+with open('languages.txt') as fobj:
+    for line in fobj:
+        # either qython or wython or rython or tython
+        if re.search('pyt{2,5}hon',line):
+            print(line.strip())          
+
+
+
+
+
+            
+
+
+
+
+            
+            
+            
+            
+
+
+
+import re
+
+line  = "The rain in Spain"
+x = re.findall("ai", line)
+print(x)
+
+
+
+
+
+line = "The rain in Spain"
+x = re.findall("Portugal", line)
+print(x)
+
+
+import re
+string = 'hello 12 hi 89. Howdy 34'
+pattern = '\d+'
+result = re.findall(pattern, string)
+print(result)
+
+
+
+
+
+
+
+
+
+
+import re
+string = 'Twelve:12 Eighty nine:89.'
+string = re.sub(":"," ",string)
+pattern = '\d+'
+result = re.split(pattern, string)
+print(result)
+
+
+
+
+
+
+
+
+import re
+
+string = 'abc    12de 23 \n f45 6'
+pattern = '\s+' 
+replace = ' '
+new_string = re.sub(pattern, replace, string)
+print(new_string)
+
+
+
+
+
+
+
+
+import re
+string = '39801 356, 2102 1111'
+
+pattern = '(\d{3}) (\d{2})'
+match = re.search(pattern, string)
+if match:
+  print(match.group())
+else:
+  print("pattern not found")
+
+
+
+
+
+
+
+
+import re
+string = '39801 356, 2102 1111'
+
+pattern = '(\d{3}) (\d{2})'
+x = re.findall(pattern, string)
+print(x)
+
+
+
+
+
+
+import re
+
+regex = '[\w]+@[\w]+'
+
+email = "giridhar276@gmail.com"
+
+if re.search(regex,email):
+    print("valid email")
+else:
+    print("Invalid email")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import re
+regex = '^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$'
+email = "giridhar276@gmail.com"
+
+if re.search(regex,email):
+    print("valid email")
+else:
+    print("Invalid email")
+
+
+
+
+
+
+# mail id validation
+
+import re
+regex = '^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$'
+email = "giridhar1.sripathi@gmail.com"
+
+if re.search(regex,email):
+    print("valid email")
+else:
+    print("Invalid email")
+
+
+
+
+
+
+https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf
+
+
+
+
+
+##################################################
+class Employee:
+    def displayEmployee():
+        print("Employee name :","rita")
+        
+        
+# creating object
+emp1 = Employee()         # alist = [10,20,30]
+emp1.displayEmployee()    # alist.append(40) 
+#####################################################
+
+
+class Employee:
+    def getName(self,name):
+        # local variable to use in all the methods
+        self.name = name
+    
+    def displayName(self):
+        print("Emp name :",self.name)
+        
+# creating object
+emp1 = Employee()       
+emp1.getName('ram')
+emp1.displayName()
+
+emp2 = Employee()       
+emp2.getName('rao')
+emp2.displayName()
+
+emp3 = Employee()       
+emp3.getName('rita')
+emp3.displayName()
+
+
+################################
+
+class Employee:
+    #constructor  in python beings in __init__
+    #constructor is invoked automatically when object is created
+    # constructor is used to initialize the values
+    def __init__(self,name):
+        # local variable to use in all the methods
+        self.name = name
+    
+    def displayName(self):
+        print("Emp name :",self.name)
+        
+# creating object
+emp1 = Employee('rita')       
+emp1.displayName()
+
+emp2 = Employee('rao')       
+emp2.displayName()
+
+emp3 = Employee('ram')       
+emp3.displayName()
+
+
+
+### using OOP
+import csv
+class File:
+    def __init__(self,name):
+        self.name = name
+    def readFile(self):
+        with open(self.name,'r') as self.fobj:
+            self.reader = csv.reader(self.fobj)
+            for record in self.reader:
+                print(record)
+
+
+file = File('adult.csv')
+file.readFile()
+file = File('business.csv')
+file.readFile()
+
+
+
+###########################
+
+import csv
+import os
+import pymysql
+from openpyxl import Workbook
+import time
+class DBOperations:
+    def __init__(self,host,port,user,password):
+        self.host = host
+        self.port = port
+        self.user= user
+        self.password = password
+    def connectDB(self):
+        try:
+            self.conn = pymysql.connect(host=self.host,port=self.port,user=self.user,password=self.password)
+            return self.conn
+        except Exception as err:
+            print(err)
+    def processData(self,status,filename):
+        filename = time.strftime("%d_%b_%Y.xlsx")
+        self.wb = Workbook()
+        # grab the active worksheet
+        self.ws = self.wb.active
+        count = 0
+        self.status = status
+        self.filename = filename
+        self.cursor = self.status.cursor()
+        self.query = "select * from zf.adultinfo"
+        self.cursor.execute(self.query)
+        for record in self.cursor.fetchall():
+            self.ws.append(record)
+        if os.path.isfile(filename):
+            os.remove(filename)
+        self.wb.save(filename)
+    def closeDB(self):
+        self.conn.close()
+        
+
+
+if __name__ == "__main__":
+    db = DBOperations('127.0.0.1',3306,'root','india@123')
+    status = db.connectDB()
+    if status:
+        filename = "adult.csv"
+        db.processData(status,filename)
+        db.closeDB()
+    else:
+        print("connection failed")
+        
+        
+        
+        
+        
